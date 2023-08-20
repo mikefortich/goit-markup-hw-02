@@ -1,0 +1,56 @@
+:root {
+    --navyblue: #2E2F42;
+    --white: #fff;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+}
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--navyblue);
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    color: var(--ocean);
+}
+button:focus {
+    color: var(--ocean);
+}
+h1 {
+    color: var(--white);
+    background-color: var(--navyblue);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.contact {
+    color: var(--slate);
+}
+.contact:hover {
+    color: var(--ocean)
+}
+.contact:focus {
+    color: var(--ocean)
+}
+.nav-list-item:hover {
+    color: var(--ocean);
+}
+.nav-list-item:focus {
+    color: var(--ocean);
+}
+.contact-list {
+    color: var(--slate);
+}
+.contact-list:hover {
+    color: var(--ocean)
+}
+.contact-list:focus {
+    color: var(--ocean)
+}
+h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+}
