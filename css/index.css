@@ -15,6 +15,7 @@ body {
 }
 .nav-list-item {
     color: var(--navyblue);
+    text-decoration: none;
 }
 .nav-list-item:hover {
     color: var(--ocean);
@@ -24,6 +25,7 @@ body {
 }
 .contact-list {
     color: var(--slate);
+    text-decoration: none;
 }
 .contact-list:hover {
     color: var(--ocean)
@@ -132,4 +134,7 @@ body {
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
+}
+.logo {
+    text-decoration: none;
 }
