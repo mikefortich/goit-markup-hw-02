@@ -9,22 +9,6 @@ body {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--navyblue);
 }
-button {
-    cursor: pointer;
-}
-button:hover {
-    color: var(--ocean);
-}
-button:focus {
-    color: var(--ocean);
-}
-h1 {
-    color: var(--white);
-    background-color: var(--navyblue);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.2;
-}
 .contact {
     color: var(--slate);
 }
@@ -49,8 +33,44 @@ h1 {
 .contact-list:focus {
     color: var(--ocean)
 }
-h3 {
-        font-size: 20px;
-        font-weight: 500;
+.web {
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 2;
+        text-decoration: none;
+}
+.header-studio {
+    color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
         line-height: 1.2;
+        text-decoration: none;
+}
+.footer-studio {
+    color: var(--cloud, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-decoration: none;
+}
+.hero-button {
+    border-radius: 4px;
+        background: var(--iris, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        display: inline-flex;
+            padding: 16px 32px;
+            align-items: flex-start;
+}
+.hero-button-text{
+    color: var(--white);
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
 }
